@@ -10,7 +10,7 @@ function sentimentToSmiley(sentiment) {
   if(score === 0) { return ':-|' }
   if(score < 0) {
     if(score > -2) { return ':-(' }
-    return ':(((('
+    return ':((((<>'
   }
 
   if(score < 2) { return ':-)' }
